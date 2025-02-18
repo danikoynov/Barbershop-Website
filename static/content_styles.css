@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.content{
+    height: 100vh;
+    width: 100vw;
+
+    background-image: 
+         /* Darken top */
+         linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 30%),  
+         /* Darken bottom */
+         linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 30%),  
+         /* Darken left & right */
+         linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.85)),  
+        url("wall.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+
+.book_button{
+    background-color: rgb(255, 119, 0);
+    width: 500px;
+    height: 80px;
+    font-size: 40px;
+    border-radius: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.barbershop_text{
+    color: white;
+    font-family: Fraunces, sans-serif;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+
+}
+
+.phrase_text{
+
+    color: white;
+    font-family: Fraunces;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 280px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}

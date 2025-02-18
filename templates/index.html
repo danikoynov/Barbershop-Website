@@ -1,0 +1,16 @@
+{% extends "base_navigation_bar.html" %}
+
+{% block addstyle %}
+    <link rel = "stylesheet" href="{{url_for('static', filename = 'content_styles.css')}}">
+{% endblock %}
+
+{% block content %}
+    <div class = "content">
+        
+        <div>
+            <div class = "phrase_text"> Your Hair, Our Craft </div>
+            <div class = "barbershop_text" > BARBERSHOP </div>
+            <button class = "book_button"> BOOK NOW</button>
+        </div>
+    </div>
+{% endblock %}
