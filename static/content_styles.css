@@ -78,7 +78,7 @@
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    width: 450px;  /* Adjust width as needed */
+    width: 30%;  /* Adjust width as needed */
     height: 550px; /* Height is 1/3 of width */
     border: 2px solid black; /* Thin black border */
     display: flex;
@@ -92,6 +92,7 @@
     margin-top: 20px;
     margin-bottom: 5px;
     flex : 1;
+    width: 100%;
 }
 .service_button {
     
@@ -101,10 +102,10 @@
     letter-spacing: 1px;
     color: white;
     border: none;
-    height: 60px;
-    width: 320px;
+    height: 80px;
+    width: 80%;
     padding: 12px 12px;  /* Adjust size */
-    font-size: 26px;
+    font-size: 34px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
@@ -139,7 +140,7 @@
     color:#404040;
     font-family: Jost, sans-serif;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .price-text{
@@ -154,7 +155,7 @@
 }
 
 .title {
-    font-size: 50px; /* Adjust size */
+    font-size: 60px; /* Adjust size */
     font-weight: bold;
     text-align: center; /* Center the title */
     color: black; /* Change color as needed */
@@ -176,7 +177,7 @@
 .working-hours-section{
     background-color:rgb(0, 0, 0);
     width: 100%;
-    height:400px;
+    height:450px;
 
     display: flex;
     flex-direction: column;
@@ -187,7 +188,7 @@
 .working-hours-circle{
 
    
-    width: 180px;
+    width: 12%;
     height: 150px;
     border-radius: 10%;
     /*background: #00b569;*/
