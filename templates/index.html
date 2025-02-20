@@ -2,15 +2,95 @@
 
 {% block addstyle %}
     <link rel = "stylesheet" href="{{url_for('static', filename = 'content_styles.css')}}">
+    <link rel = "stylesheet" href="{{url_for('static', filename = 'footer.css')}}">
+
 {% endblock %}
 
 {% block content %}
     <div class = "content">
         
-        <div>
-            <div class = "phrase_text"> Your Hair, Our Craft </div>
-            <div class = "barbershop_text" > BARBERSHOP </div>
-            <button class = "book_button"> BOOK NOW</button>
-        </div>
+        
+        <div class = "phrase_text"> Вашият стил е наш дълг </div>
+        <div class = "barbershop_text" > BARBER STUDIO MAZZNU </div>
+        <button class = "book_button"> Запази час  </button>
+        
     </div>
+
+
+    <!-- I should add services with js -->
+    <section class="services" id = "services">
+        
+        <div class = "our-services-section">
+            <div class = "our-services-title"> 
+                <h1 class = "title">
+                        Нашите услуги
+                </h1>
+            </div>
+            <div class = "services-list" >
+                <div class = "single-service">
+                    <div class = "button-section" >
+                        <button class = "service_button"> Мъжко подстригване</button>
+                    </div>
+                    <div class = "service-text-section">
+                        <p class = "center-aligned-text   ">
+                        Перфектната прическа е не просто подстригване – тя е израз на вашия стил и характер. Нашите опитни бръснари ще ви предложат индивидуален подход и ще оформят вашата коса според най-новите тенденции или класически стилове.
+                        </p>
+
+                    </div>
+
+                    <div class = "price-text">
+                        <span class = "center-aligned-text">
+                            Цена: 20 лв
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class = "single-service">
+                    <div class = "button-section" >
+                        <button class = "service_button"> Оформяне на брада</button>
+                    </div>
+                    <div class = "service-text-section">
+                        <p class = "center-aligned-text   ">
+                            Брадата е не просто част от визията – тя е израз на мъжественост и стил. Нашите професионални бръснари ще оформят брадата ви прецизно, подчертавайки най-добрите черти на лицето ви.
+                        </p>
+
+                    </div>
+
+                    <div class = "price-text">
+                        <span class = "center-aligned-text">
+                            Цена: 15 лв
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class = "single-service">
+                    <div class = "button-section" >
+                        <button class = "service_button"> Стайлинг </button>
+                    </div>
+                    <div class = "service-text-section">
+                        <p class = "center-aligned-text   ">
+                            Перфектната визия не завършва само с подстригване – правилният стайлинг придава завършеност и подчертава вашия стил. В нашия барбершоп използваме професионални продукти за оформяне на косата и брадата, съобразени с вашия тип коса и желания резултат.
+                        </p>
+                    </div>
+
+                    <div class = "price-text">
+                        <span class = "center-aligned-text">
+                            Цена: 10 лв
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    {% block endcontent %}
+
+    {% endblock %}
+
+
+    
+    
 {% endblock %}
