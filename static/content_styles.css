@@ -73,6 +73,7 @@
 }
 
 .single-service {
+    border-radius: 10px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -92,6 +93,7 @@
     flex : 1;
 }
 .service_button {
+    
     overflow: hidden; /* Ensures no scrollbars appear */
     white-space: nowrap; /* Prevents text from wrapping */
     background-color: black;
@@ -186,7 +188,7 @@
    
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 10%;
     /*background: #00b569;*/
     background: #00b4c8;
     color: white;
