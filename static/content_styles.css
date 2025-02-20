@@ -59,8 +59,10 @@
 
 
 .services{
-    height: 800px;
-
+    height: 1000px;
+    background-color: #eeeeee;
+   /* background-image: url("custom-rbw.jpg");*/
+    
 }
 .services-list{
     width:75%;
@@ -71,7 +73,7 @@
 }
 
 .single-service {
-    background-color: #fffaf1;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     width: 350px;  /* Adjust width as needed */
@@ -90,6 +92,8 @@
     flex : 1;
 }
 .service_button {
+    overflow: hidden; /* Ensures no scrollbars appear */
+    white-space: nowrap; /* Prevents text from wrapping */
     background-color: black;
     letter-spacing: 1px;
     color: white;
@@ -140,7 +144,7 @@
 }
 
 .our-services-section{
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,3 +160,53 @@
     margin: 20px 0; /* Adds space above and below */
     font-family: Jost, sans-serif;
 }
+
+
+.buffer{
+    /*background-color: antiquewhite;*/
+    background-color: #eeeeee;
+    width: 100%;
+    height: 200px;
+    
+}
+
+.working-hours-section{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height:400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.working-hours-circle{
+
+   
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /*background: #00b569;*/
+    background: #00b4c8;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Arrange text in column */
+    justify-content: center; /* Center text vertically */
+    align-items: center; /* Center text horizontally */
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 1.2; /* Adjust line height to bring text a bit up */
+    font-family: Jost, sans-serif;
+}
+
+.working-hours-row{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    align-content: center;
+}
+
